@@ -1,14 +1,29 @@
 # PROJECT OVERVIEW
 *The project is a simple tool to help students submit their assignments online and make it easier for teachers to review and manage them. It saves time and makes the whole process smooth for everyone involved.
 
+## INSTALLATION AND SETUP (Prerequisites)
+
+  1.IntelliJ IDEA IDE:-
+  * Install the latest version of IntelliJ IDEA IDE.
+  * Ensure that **JDK 17** is installed and configured in IntelliJ IDEA for running and importing the project.
+
+  2.MySQL Workbench
+  * Install the latest version of **MySQL Workbench** for managing the database
+  * Use it to configure the MySQL database required by the project.
+
+  3.Postman
+  * Install the latest version of **Postman** for testing API endpoints.
+  * Use it to send HTTP requests and verify the application's functionality.
+
+
 ## FEATURES
-* User Management: Handle user registration and authentication.
+* User Model: Handle user registration and authentication.
 
-* Assignment Submission: Allow users to upload assignments and track submissions.
+* Assignment Model: Allow users to upload assignments and track submissions.
 
-* Admin Dashboard: Enable administrators to review, approve, or reject assignments.
+* Admin Model: Enable administrators to review, approve, or reject assignments.
 
-* Error Handling: Robust error handling mechanisms to ensure a smooth user experience.
+* Error and Execption Handling: Robust error handling mechanisms to ensure a smooth user experience.
 
 ## TECH-STACK
 * Programming Languages:- Java
@@ -19,7 +34,7 @@
 
 * Database:- MySQL
 
-* Other:- REST API, Apache Tomcat
+* Other:- J2EE, REST API, Apache Tomcat
 
 ## PROJECT STRUCTURE
 - *src/*
